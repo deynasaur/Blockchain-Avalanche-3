@@ -24,7 +24,7 @@ function mint(address _to, uint _amount)
 ```
 * Burn (*user can burn token from their own account*)
 ```
-burn(_uint amount)
+function burn(uint _amount)
 ```
 * Transfer (*user can transfer token to another address*)
 ```
