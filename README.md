@@ -18,7 +18,18 @@ To run this program, navigate to Remix, an online Solidity IDE, at https://remix
 ### Executing the program
 
 * Compile and deploy the smart contract.
-* 
+* Mint (*contract owner only*)
+```
+function mint(address _to, uint _amount)
+```
+* Burn (*user can burn token from their own account*)
+```
+burn(_uint amount)
+```
+* Transfer (*user can transfer token to another address*)
+```
+function transfer(address _to, uint _amount)
+```
 
 ## Help
 
